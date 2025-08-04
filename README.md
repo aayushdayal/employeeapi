@@ -49,7 +49,7 @@ dotnet run
 You can test endpoints using:
 - `curl`
 - `Postman`
-- Built-in Swagger (if added)
+- `Built-in Swagger`
 - `EmployeeApi.http` file (Visual Studio)
 
 ---
@@ -60,7 +60,8 @@ You can test endpoints using:
 docker build -t teambufftronics/employeeapi .
 docker push teambufftronics/employeeapi
 ```
-https://hub.docker.com/r/teambufftronics/employeeapi -- I have put this image on a public repository
+https://hub.docker.com/r/teambufftronics/employeeapi  
+> I have put this image on a public repository
 ---
 
 ## Kubernetes Deployment
