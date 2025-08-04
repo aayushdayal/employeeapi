@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Dot Net\\EmployeeApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|d:\\projects\\dot net\\employeeapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|d:\\projects\\dot net\\employeeapi\\employee-k8s-yamls\\07-api-service.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|solutionrelative:employee-k8s-yamls\\07-api-service.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|d:\\projects\\dot net\\employeeapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|d:\\projects\\dot net\\employeeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|d:\\projects\\dot net\\employeeapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|d:\\projects\\dot net\\employeeapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|d:\\projects\\dot net\\employeeapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|d:\\projects\\dot net\\employeeapi\\data\\employeecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|solutionrelative:data\\employeecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|d:\\projects\\dot net\\employeeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{45880748-7B64-436F-A08C-AA400BE8797B}|EmployeeApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "07-api-service.yaml",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\EmployeeApi\\employee-k8s-yamls\\07-api-service.yaml",
+              "RelativeDocumentMoniker": "employee-k8s-yamls\\07-api-service.yaml",
+              "ToolTip": "D:\\Projects\\Dot Net\\EmployeeApi\\employee-k8s-yamls\\07-api-service.yaml",
+              "RelativeToolTip": "employee-k8s-yamls\\07-api-service.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-08-04T15:57:58.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\EmployeeApi\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\Projects\\Dot Net\\EmployeeApi\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-08-03T20:04:31.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\EmployeeApi\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\Projects\\Dot Net\\EmployeeApi\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-02T16:44:50.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\EmployeeApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projects\\Dot Net\\EmployeeApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAABYAAAAAAAAAAAD4vzMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-02T08:43:59.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\EmployeeApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Projects\\Dot Net\\EmployeeApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-27T19:38:07.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\EmployeeApi\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "D:\\Projects\\Dot Net\\EmployeeApi\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T19:24:39.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\EmployeeApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projects\\Dot Net\\EmployeeApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T18:13:02.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\EmployeeApi\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\Projects\\Dot Net\\EmployeeApi\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T18:13:58.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeContext.cs",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\EmployeeApi\\Data\\EmployeeContext.cs",
+              "RelativeDocumentMoniker": "Data\\EmployeeContext.cs",
+              "ToolTip": "D:\\Projects\\Dot Net\\EmployeeApi\\Data\\EmployeeContext.cs",
+              "RelativeToolTip": "Data\\EmployeeContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T18:13:54.079Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

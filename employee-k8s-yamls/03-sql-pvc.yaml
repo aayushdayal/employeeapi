@@ -1,0 +1,12 @@
+# This PersistentVolumeClaim (PVC) requests storage for the SQL Server pod
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: sqlserver-pvc # Name of the PVC, referenced in the pod spec
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: standard # Uses the default storage class provided by the cluster (e.g., GKE standard)
+  resources:
+    requests:
+      storage: 1Gi

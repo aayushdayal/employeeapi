@@ -1,0 +1,32 @@
+# Ingress resource to expose internal services externally using GCP HTTP(S) Load Balancer
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: employeeapi-ingress
+  annotations:
+    kubernetes.io/ingress.class: "gce"  # Explicitly using GCP ingress controller
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /api
+        pathType: Prefix
+        backend:
+          service:
+            name: employeeapi-service
+            port:
+              number: 80
+      - path: /swagger 
+        pathType: Prefix
+        backend:
+          service:
+            name: employeeapi-service
+            port:
+              number: 80
+      - path: /swagger/index.html
+        pathType: Prefix
+        backend:
+          service:
+            name: employeeapi-service
+            port:
+              number: 80

@@ -1,0 +1,50 @@
+# Deployment definition for the Employee API application
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: employeeapi-deployment
+spec:
+  replicas: 4
+  strategy:
+    type: RollingUpdate # Enables zero-downtime rolling updates to new versions
+  selector:
+    matchLabels:
+      app: employeeapi
+  template:
+    metadata:
+      labels:
+        app: employeeapi
+    spec:
+      containers:
+        - name: employeeapi
+          image: teambufftronics/employeeapi
+          ports:
+            - containerPort: 80
+          env:
+            - name: DB_SERVER
+              valueFrom:
+                configMapKeyRef: # Fetched from ConfigMap
+                  name: api-config
+                  key: DB_SERVER
+            - name: DB_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: api-config
+                  key: DB_NAME
+            - name: DB_USER
+              valueFrom:
+                secretKeyRef:
+                  name: api-secret
+                  key: DB_USER
+            - name: DB_PASS
+              valueFrom:
+                secretKeyRef:
+                  name: api-secret
+                  key: DB_PASS
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "200m"
+              memory: "256Mi"

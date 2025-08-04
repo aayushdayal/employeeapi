@@ -1,0 +1,49 @@
+# Deployment for SQL Server database
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sqlserver-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sqlserver
+  template:
+    metadata:
+      labels:
+        app: sqlserver
+    spec:
+      initContainers: # Init container to fix permissions on mounted volume before SQL Server starts
+        - name: fix-permissions
+          image: busybox # Linux image for running shell commands
+          command: ["sh", "-c", "chown -R 10001:10001 /var/opt/mssql"] # Set correct ownership for SQL volume. Added to resolve a SQL error
+          volumeMounts:
+            - name: sqlserver-storage
+              mountPath: /var/opt/mssql
+      containers:
+        - name: sqlserver
+          image: mcr.microsoft.com/mssql/server:2019-latest # Official Microsoft SQL Server image
+          ports:
+            - containerPort: 1433
+          env:
+            - name: ACCEPT_EULA
+              value: "Y"
+            - name: SA_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: api-secret
+                  key: DB_PASS
+          volumeMounts:
+            - mountPath: /var/opt/mssql
+              name: sqlserver-storage
+          resources:
+            requests:
+              cpu: 250m
+              memory: 512Mi
+            limits:
+              cpu: 500m
+              memory: 1Gi
+      volumes:
+        - name: sqlserver-storage
+          persistentVolumeClaim:
+            claimName: sqlserver-pvc # References the PVC that provides persistent disk

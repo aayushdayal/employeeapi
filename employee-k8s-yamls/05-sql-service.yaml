@@ -1,0 +1,12 @@
+# This Service exposes the SQL Server pod internally within the Kubernetes cluster
+apiVersion: v1
+kind: Service
+metadata:
+  name: sqlserver
+spec:
+  selector:
+    app: sqlserver  # Targets pods with the label 'app: sqlserver'
+  ports:
+  - port: 1433 # Port exposed by the service within the cluster
+    targetPort: 1433 # Port on the SQL Server container that receives traffic
+  type: ClusterIP # Default service type; only accessible within the cluster

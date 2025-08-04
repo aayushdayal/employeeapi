@@ -1,0 +1,8 @@
+# This file defines a ConfigMap to provide non-sensitive configuration data to the application
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-config # Name of the database to connect to
+data:
+  DB_SERVER: "sqlserver" # Hostname or service name of the SQL Server inside the cluster
+  DB_NAME: "EmployeeDB" # Name of the database to connect to
